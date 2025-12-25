@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.DS_Store
+.env
+.venv/
+*.sqlite3
+*.log
+*.bak
+*.swp
+*.swo
+*.tmp
+*.html
+# Data files
+/data/*.csv
+/datacreation/*.csv
+# Jupyter and notebook checkpoints
+.ipynb_checkpoints/
