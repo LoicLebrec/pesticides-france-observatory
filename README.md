@@ -1,6 +1,11 @@
 # Pesticides France Observatory
 
+
 This project generates a national map and interactive table of pesticide usage in France for 2023, using public CSV and GeoJSON data. The output is a standalone HTML file with a Plotly map and searchable table.
+
+**Scientific note:**
+> The data presented here are based on pesticide purchases ("achats") and not direct consumption. However, according to INRAE research, purchases are an excellent proxy for actual use at the national scale: "Les quantités de produits phytopharmaceutiques achetées sont très proches de celles effectivement utilisées à l’échelle nationale, car la quasi-totalité des produits achetés est utilisée la même année."  
+> Source: [INRAE - Les pesticides en France : état des lieux et perspectives](https://www.inrae.fr/actualites/pesticides-france-etat-lieux-perspectives)
 
 ## Features
 - Downloads and processes national pesticide purchase data by postal code
